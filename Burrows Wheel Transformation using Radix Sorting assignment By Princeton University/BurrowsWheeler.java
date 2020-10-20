@@ -41,7 +41,7 @@ public class BurrowsWheeler {
 		
 		// do comulative count
 		for (int i = 0; i < R; i++) {
-			count[i + 1] = count[i];
+			count[i + 1] += count[i];
 		}
 
 		// auxilary array final step
