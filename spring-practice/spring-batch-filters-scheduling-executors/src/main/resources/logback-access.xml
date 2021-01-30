@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="10 seconds"
+	debug="true">
+
+	<springProfile name="local">
+		<property name="LOGS" value="${LOG_DIR}" />
+	</springProfile>
+
+	<springProfile name="dev">
+		<property name="LOGS" value="${LOG_DIR}" />
+	</springProfile>
+
+	<springProfile name="test">
+		<property name="LOGS" value="${LOG_DIR}" />
+	</springProfile>
+
+	<springProfile name="stage">
+		<property name="LOGS" value="${LOG_DIR}" />
+	</springProfile>
+
+	<springProfile name="prod">
+		<property name="LOGS" value="${LOG_DIR}" />
+	</springProfile>
+
+	<!-- always a good activate OnConsoleStatusListener -->
+	<statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
+
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOGS}/access.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${LOGS}/access.log.%d{yyyy-MM-dd}</fileNamePattern>
+		</rollingPolicy>
+
+		<encoder>
+			<!-- <pattern>combined</pattern> -->
+			<!-- for more layout info - https://logback.qos.ch/manual/layouts.html -->
+			<pattern>%i{True-Client-IP} [%date{yyyy-MM-dd HH:mm:ss}] [%l] [%user]
+				"%requestURL" %statusCode %bytesSent %elapsedTime "%i{Referer}" "%i{User-Agent} %server
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender-ref ref="FILE" />
+
+</configuration>

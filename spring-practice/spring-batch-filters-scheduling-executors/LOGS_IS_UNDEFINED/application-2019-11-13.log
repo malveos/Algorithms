@@ -1,0 +1,1291 @@
+2019-11-13 10:53:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:53:02
+2019-11-13 10:53:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 10:53:02
+2019-11-13 10:53:03 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 10:55:23 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:55:23
+2019-11-13 10:55:23 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 10:55:23
+2019-11-13 10:55:23 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 10:56:35 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:56:35
+2019-11-13 10:57:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 10:57:43
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:57:48
+2019-11-13 10:57:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:57:48
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1573622888484}
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job failed
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Cron Task :: Execution Time - 10:58:08 Name-> Mail-Thread1 ThreadSet-> [Thread[Reference Handler,10,system], Thread[ReaderThread,5,main], Thread[RMI TCP Connection(1)-172.16.155.102,5,RMI Runtime], Thread[logback-3,5,main], Thread[JMX server connection timeout 20,5,RMI Runtime], Thread[Finalizer,8,system], Thread[Signal Dispatcher,9,system], Thread[logback-4,5,main], Thread[Job-Thread1,5,main], Thread[Common-Cleaner,8,InnocuousThreadGroup], Thread[Mail-Thread1,5,main], Thread[logback-1,5,main], Thread[logback-2,5,main], Thread[logback-8,5,main], Thread[RMI TCP Accept-0,5,system], Thread[main,5,main], Thread[logback-7,5,main], Thread[RMI Scheduler(0),5,system], Thread[Attach Listener,5,system], Thread[logback-6,5,main], Thread[Job-Thread2,5,main], Thread[logback-5,5,main]]
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:58:08
+2019-11-13 10:58:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 10:58:08
+2019-11-13 10:58:13 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 10:59:47 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:59:47
+2019-11-13 10:59:47 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 10:59:47
+2019-11-13 10:59:52 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:59:52
+2019-11-13 10:59:52 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:59:52
+2019-11-13 10:59:52 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:59:52
+2019-11-13 10:59:53 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:59:53
+2019-11-13 10:59:54 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:59:54
+2019-11-13 10:59:54 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 10:59:54
+2019-11-13 10:59:59 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:59:59
+2019-11-13 10:59:59 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:59:59
+2019-11-13 10:59:59 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:59:59
+2019-11-13 10:59:59 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 10:59:59
+2019-11-13 10:59:59 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 10:59:59
+2019-11-13 11:00:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-13 11:00:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-13 11:00:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-13 11:00:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1573623000012}
+2019-11-13 11:00:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job failed
+2019-11-13 11:00:00 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Cron Task :: Execution Time - 11:00:00 Name-> Mail-Thread1 ThreadSet-> [Thread[Signal Dispatcher,9,system], Thread[ReaderThread,5,main], Thread[RMI TCP Accept-0,5,system], Thread[logback-1,5,main], Thread[Mail-Thread1,5,main], Thread[Attach Listener,5,system], Thread[Job-Thread1,5,main], Thread[Finalizer,8,system], Thread[JMX server connection timeout 23,5,RMI Runtime], Thread[RMI Scheduler(0),5,system], Thread[Reference Handler,10,system], Thread[RMI TCP Connection(1)-172.16.155.102,5,RMI Runtime], Thread[main,5,main], Thread[logback-2,5,main], Thread[Common-Cleaner,8,InnocuousThreadGroup]]
+2019-11-13 11:00:00 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:00
+2019-11-13 11:00:01 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:01
+2019-11-13 11:00:01 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:00:01
+2019-11-13 11:00:06 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:06
+2019-11-13 11:00:06 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:06
+2019-11-13 11:00:06 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:06
+2019-11-13 11:00:06 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:06
+2019-11-13 11:00:06 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:06
+2019-11-13 11:00:07 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:07
+2019-11-13 11:00:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:08
+2019-11-13 11:00:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:00:08
+2019-11-13 11:00:13 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:13
+2019-11-13 11:00:13 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:13
+2019-11-13 11:00:13 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:13
+2019-11-13 11:00:13 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:13
+2019-11-13 11:00:13 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:13
+2019-11-13 11:00:14 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:14
+2019-11-13 11:00:15 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:15
+2019-11-13 11:00:15 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:00:15
+2019-11-13 11:00:20 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:20
+2019-11-13 11:00:20 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:20
+2019-11-13 11:00:20 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:20
+2019-11-13 11:00:20 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:20
+2019-11-13 11:00:20 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:20
+2019-11-13 11:00:21 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:21
+2019-11-13 11:00:22 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:22
+2019-11-13 11:00:22 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:00:22
+2019-11-13 11:00:27 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:27
+2019-11-13 11:00:27 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:27
+2019-11-13 11:00:27 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:27
+2019-11-13 11:00:27 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:27
+2019-11-13 11:00:27 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:27
+2019-11-13 11:00:28 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:28
+2019-11-13 11:00:29 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:29
+2019-11-13 11:00:29 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:00:29
+2019-11-13 11:00:34 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:34
+2019-11-13 11:00:34 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:34
+2019-11-13 11:00:34 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:34
+2019-11-13 11:00:34 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:34
+2019-11-13 11:00:34 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:34
+2019-11-13 11:00:35 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:35
+2019-11-13 11:00:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:36
+2019-11-13 11:00:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:00:36
+2019-11-13 11:00:41 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:41
+2019-11-13 11:00:41 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:41
+2019-11-13 11:00:41 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:41
+2019-11-13 11:00:41 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:41
+2019-11-13 11:00:41 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:41
+2019-11-13 11:00:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:42
+2019-11-13 11:00:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:43
+2019-11-13 11:00:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:00:43
+2019-11-13 11:00:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:48
+2019-11-13 11:00:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:48
+2019-11-13 11:00:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:48
+2019-11-13 11:00:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:48
+2019-11-13 11:00:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:48
+2019-11-13 11:00:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:49
+2019-11-13 11:00:50 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:50
+2019-11-13 11:00:50 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:00:50
+2019-11-13 11:00:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:55
+2019-11-13 11:00:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:55
+2019-11-13 11:00:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:55
+2019-11-13 11:00:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:55
+2019-11-13 11:00:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:55
+2019-11-13 11:00:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:00:56
+2019-11-13 11:00:57 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:00:57
+2019-11-13 11:00:57 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:00:57
+2019-11-13 11:01:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:02
+2019-11-13 11:01:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:02
+2019-11-13 11:01:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-13 11:01:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-13 11:01:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-13 11:01:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1573623062514}
+2019-11-13 11:01:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job failed
+2019-11-13 11:01:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Cron Task :: Execution Time - 11:01:02 Name-> Mail-Thread1 ThreadSet-> [Thread[Signal Dispatcher,9,system], Thread[Job-Thread2,5,main], Thread[logback-4,5,main], Thread[ReaderThread,5,main], Thread[RMI TCP Accept-0,5,system], Thread[logback-5,5,main], Thread[logback-6,5,main], Thread[logback-8,5,main], Thread[logback-1,5,main], Thread[Mail-Thread1,5,main], Thread[logback-3,5,main], Thread[Attach Listener,5,system], Thread[Job-Thread1,5,main], Thread[logback-7,5,main], Thread[Finalizer,8,system], Thread[JMX server connection timeout 23,5,RMI Runtime], Thread[RMI Scheduler(0),5,system], Thread[Reference Handler,10,system], Thread[RMI TCP Connection(1)-172.16.155.102,5,RMI Runtime], Thread[main,5,main], Thread[logback-2,5,main], Thread[Common-Cleaner,8,InnocuousThreadGroup]]
+2019-11-13 11:01:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:02
+2019-11-13 11:01:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:02
+2019-11-13 11:01:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:02
+2019-11-13 11:01:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:03
+2019-11-13 11:01:04 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:04
+2019-11-13 11:01:04 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:01:04
+2019-11-13 11:01:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:09
+2019-11-13 11:01:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:09
+2019-11-13 11:01:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:09
+2019-11-13 11:01:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:09
+2019-11-13 11:01:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:09
+2019-11-13 11:01:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:10
+2019-11-13 11:01:11 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:11
+2019-11-13 11:01:11 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:01:11
+2019-11-13 11:01:16 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:16
+2019-11-13 11:01:16 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:16
+2019-11-13 11:01:16 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:16
+2019-11-13 11:01:16 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:16
+2019-11-13 11:01:16 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:16
+2019-11-13 11:01:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:17
+2019-11-13 11:01:18 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:18
+2019-11-13 11:01:18 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:01:18
+2019-11-13 11:01:23 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:23
+2019-11-13 11:01:23 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:23
+2019-11-13 11:01:23 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:23
+2019-11-13 11:01:23 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:23
+2019-11-13 11:01:23 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:23
+2019-11-13 11:01:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:01:24
+2019-11-13 11:01:25 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:01:25
+2019-11-13 11:01:25 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:01:25
+2019-11-13 11:01:25 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:09:29 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:29
+2019-11-13 11:09:29 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:09:29
+2019-11-13 11:09:34 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:34
+2019-11-13 11:09:34 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:34
+2019-11-13 11:09:34 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:34
+2019-11-13 11:09:35 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:35
+2019-11-13 11:09:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:36
+2019-11-13 11:09:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:09:36
+2019-11-13 11:09:41 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:41
+2019-11-13 11:09:41 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:41
+2019-11-13 11:09:41 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:41
+2019-11-13 11:09:41 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:41
+2019-11-13 11:09:41 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:41
+2019-11-13 11:09:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:42
+2019-11-13 11:09:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:43
+2019-11-13 11:09:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:09:43
+2019-11-13 11:09:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:48
+2019-11-13 11:09:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:48
+2019-11-13 11:09:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:48
+2019-11-13 11:09:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:48
+2019-11-13 11:09:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:48
+2019-11-13 11:09:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:49
+2019-11-13 11:09:50 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:50
+2019-11-13 11:09:50 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:09:50
+2019-11-13 11:09:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:55
+2019-11-13 11:09:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:55
+2019-11-13 11:09:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:55
+2019-11-13 11:09:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:55
+2019-11-13 11:09:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:55
+2019-11-13 11:09:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:09:56
+2019-11-13 11:09:57 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:09:57
+2019-11-13 11:09:57 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:09:57
+2019-11-13 11:10:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:10:02
+2019-11-13 11:10:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:10:02
+2019-11-13 11:10:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-13 11:10:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-13 11:10:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-13 11:10:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1573623602390}
+2019-11-13 11:10:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : COMPLETED
+2019-11-13 11:10:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-13 11:10:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-13 11:10:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Cron Task :: Execution Time - 11:10:03 Name-> Mail-Thread1 ThreadSet-> [Thread[RMI TCP Accept-0,5,system], Thread[http-nio-8070-exec-1,5,main], Thread[logback-2,5,main], Thread[http-nio-8070-exec-10,5,main], Thread[RMI TCP Connection(1)-127.0.0.1,5,RMI Runtime], Thread[Common-Cleaner,8,InnocuousThreadGroup], Thread[Attach Listener,5,system], Thread[http-nio-8070-Acceptor-0,5,main], Thread[RMI Scheduler(0),5,system], Thread[container-0,5,main], Thread[http-nio-8070-ClientPoller-1,5,main], Thread[Reference Handler,10,system], Thread[http-nio-8070-exec-8,5,main], Thread[logback-3,5,main], Thread[Job-Thread1,5,main], Thread[NioBlockingSelector.BlockPoller-1,5,main], Thread[http-nio-8070-exec-7,5,main], Thread[Signal Dispatcher,9,system], Thread[http-nio-8070-exec-3,5,main], Thread[http-nio-8070-exec-4,5,main], Thread[http-nio-8070-ClientPoller-0,5,main], Thread[logback-4,5,main], Thread[logback-1,5,main], Thread[http-nio-8070-exec-5,5,main], Thread[Mail-Thread1,5,main], Thread[http-nio-8070-exec-6,5,main], Thread[Catalina-utility-2,1,main], Thread[Finalizer,8,system], Thread[oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser,4,main], Thread[http-nio-8070-exec-9,5,main], Thread[RMI TCP Accept-0,5,system], Thread[DestroyJavaVM,5,main], Thread[Catalina-utility-1,1,main], Thread[RMI TCP Accept-61207,5,system], Thread[http-nio-8070-exec-2,5,main], Thread[JMX server connection timeout 20,5,RMI Runtime]]
+2019-11-13 11:10:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:10:03
+2019-11-13 11:10:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:10:03
+2019-11-13 11:10:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:10:03
+2019-11-13 11:10:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:10:03
+2019-11-13 11:10:04 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:10:04
+2019-11-13 11:10:04 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:10:04
+2019-11-13 11:10:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:10:09
+2019-11-13 11:10:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:10:09
+2019-11-13 11:10:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:10:09
+2019-11-13 11:10:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:10:09
+2019-11-13 11:10:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:10:09
+2019-11-13 11:10:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:10:10
+2019-11-13 11:10:11 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:10:11
+2019-11-13 11:10:11 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:10:11
+2019-11-13 11:10:11 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:11:15 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:11:15
+2019-11-13 11:11:15 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:11:15
+2019-11-13 11:11:33 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:11:33
+2019-11-13 11:11:33 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:11:33
+2019-11-13 11:11:35 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:15:30 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:15:30
+2019-11-13 11:15:30 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:15:30
+2019-11-13 11:15:31 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:16:30 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:30
+2019-11-13 11:16:30 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:16:30
+2019-11-13 11:16:35 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:35
+2019-11-13 11:16:35 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:35
+2019-11-13 11:16:35 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:35
+2019-11-13 11:16:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:36
+2019-11-13 11:16:37 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:37
+2019-11-13 11:16:37 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:16:37
+2019-11-13 11:16:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:42
+2019-11-13 11:16:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:42
+2019-11-13 11:16:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:42
+2019-11-13 11:16:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:42
+2019-11-13 11:16:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:42
+2019-11-13 11:16:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:43
+2019-11-13 11:16:44 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:44
+2019-11-13 11:16:44 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:16:44
+2019-11-13 11:16:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:49
+2019-11-13 11:16:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:49
+2019-11-13 11:16:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:49
+2019-11-13 11:16:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:49
+2019-11-13 11:16:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:49
+2019-11-13 11:16:50 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:50
+2019-11-13 11:16:51 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:51
+2019-11-13 11:16:51 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:16:51
+2019-11-13 11:16:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:56
+2019-11-13 11:16:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:56
+2019-11-13 11:16:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:56
+2019-11-13 11:16:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:56
+2019-11-13 11:16:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:56
+2019-11-13 11:16:57 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:16:57
+2019-11-13 11:16:58 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:16:58
+2019-11-13 11:16:58 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:16:58
+2019-11-13 11:17:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:03
+2019-11-13 11:17:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-13 11:17:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-13 11:17:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-13 11:17:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1573624023302}
+2019-11-13 11:17:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job failed
+2019-11-13 11:17:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Cron Task :: Execution Time - 11:17:03 Name-> Mail-Thread1 ThreadSet-> [Thread[ReaderThread,5,main], Thread[logback-1,5,main], Thread[Mail-Thread1,5,main], Thread[Reference Handler,10,system], Thread[Signal Dispatcher,9,system], Thread[RMI TCP Accept-0,5,system], Thread[RMI Scheduler(0),5,system], Thread[logback-3,5,main], Thread[main,5,main], Thread[Common-Cleaner,8,InnocuousThreadGroup], Thread[RMI TCP Connection(1)-172.16.155.102,5,RMI Runtime], Thread[logback-4,5,main], Thread[oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser,4,main], Thread[logback-2,5,main], Thread[Attach Listener,5,system], Thread[Job-Thread1,5,main], Thread[JMX server connection timeout 26,5,RMI Runtime], Thread[Finalizer,8,system]]
+2019-11-13 11:17:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:03
+2019-11-13 11:17:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:03
+2019-11-13 11:17:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:03
+2019-11-13 11:17:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:03
+2019-11-13 11:17:04 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:04
+2019-11-13 11:17:05 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:05
+2019-11-13 11:17:05 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:17:05
+2019-11-13 11:17:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:10
+2019-11-13 11:17:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:10
+2019-11-13 11:17:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:10
+2019-11-13 11:17:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:10
+2019-11-13 11:17:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:10
+2019-11-13 11:17:11 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:11
+2019-11-13 11:17:12 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:12
+2019-11-13 11:17:12 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:17:12
+2019-11-13 11:17:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:17
+2019-11-13 11:17:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:17
+2019-11-13 11:17:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:17
+2019-11-13 11:17:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:17
+2019-11-13 11:17:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:17
+2019-11-13 11:17:18 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:18
+2019-11-13 11:17:19 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:19
+2019-11-13 11:17:19 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:17:19
+2019-11-13 11:17:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:24
+2019-11-13 11:17:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:24
+2019-11-13 11:17:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:24
+2019-11-13 11:17:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:24
+2019-11-13 11:17:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:24
+2019-11-13 11:17:25 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:25
+2019-11-13 11:17:26 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:26
+2019-11-13 11:17:26 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:17:26
+2019-11-13 11:17:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:31
+2019-11-13 11:17:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:31
+2019-11-13 11:17:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:31
+2019-11-13 11:17:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:31
+2019-11-13 11:17:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:31
+2019-11-13 11:17:32 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:32
+2019-11-13 11:17:33 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:33
+2019-11-13 11:17:33 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:17:33
+2019-11-13 11:17:34 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:17:51 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:51
+2019-11-13 11:17:51 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:17:51
+2019-11-13 11:17:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:56
+2019-11-13 11:17:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:56
+2019-11-13 11:17:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:56
+2019-11-13 11:17:57 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:17:57
+2019-11-13 11:17:58 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:17:58
+2019-11-13 11:17:58 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:17:58
+2019-11-13 11:18:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:03
+2019-11-13 11:18:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-13 11:18:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-13 11:18:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-13 11:18:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1573624083253}
+2019-11-13 11:18:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job failed
+2019-11-13 11:18:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Cron Task :: Execution Time - 11:18:03 Name-> Mail-Thread1 ThreadSet-> [Thread[RMI Scheduler(0),5,system], Thread[RMI TCP Accept-0,5,system], Thread[logback-2,5,main], Thread[Signal Dispatcher,9,system], Thread[JMX server connection timeout 20,5,RMI Runtime], Thread[ReaderThread,5,main], Thread[logback-1,5,main], Thread[Reference Handler,10,system], Thread[RMI TCP Connection(1)-172.16.155.102,5,RMI Runtime], Thread[Finalizer,8,system], Thread[Common-Cleaner,8,InnocuousThreadGroup], Thread[main,5,main], Thread[Attach Listener,5,system], Thread[Job-Thread1,5,main], Thread[Mail-Thread1,5,main]]
+2019-11-13 11:18:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:03
+2019-11-13 11:18:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:03
+2019-11-13 11:18:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:03
+2019-11-13 11:18:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:03
+2019-11-13 11:18:04 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:04
+2019-11-13 11:18:05 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:05
+2019-11-13 11:18:05 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:18:05
+2019-11-13 11:18:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:10
+2019-11-13 11:18:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:10
+2019-11-13 11:18:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:10
+2019-11-13 11:18:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:10
+2019-11-13 11:18:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:10
+2019-11-13 11:18:11 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:11
+2019-11-13 11:18:12 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:12
+2019-11-13 11:18:12 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:18:12
+2019-11-13 11:18:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:17
+2019-11-13 11:18:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:17
+2019-11-13 11:18:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:17
+2019-11-13 11:18:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:17
+2019-11-13 11:18:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:17
+2019-11-13 11:18:18 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:18
+2019-11-13 11:18:19 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:19
+2019-11-13 11:18:19 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:18:19
+2019-11-13 11:18:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:24
+2019-11-13 11:18:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:24
+2019-11-13 11:18:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:24
+2019-11-13 11:18:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:24
+2019-11-13 11:18:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:24
+2019-11-13 11:18:25 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:25
+2019-11-13 11:18:26 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:26
+2019-11-13 11:18:26 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:18:26
+2019-11-13 11:18:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:31
+2019-11-13 11:18:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:31
+2019-11-13 11:18:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:31
+2019-11-13 11:18:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:31
+2019-11-13 11:18:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:31
+2019-11-13 11:18:32 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:32
+2019-11-13 11:18:33 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:33
+2019-11-13 11:18:33 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:18:33
+2019-11-13 11:18:38 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:38
+2019-11-13 11:18:38 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:38
+2019-11-13 11:18:38 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:38
+2019-11-13 11:18:38 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:38
+2019-11-13 11:18:38 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:38
+2019-11-13 11:18:39 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:39
+2019-11-13 11:18:40 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:40
+2019-11-13 11:18:40 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:18:40
+2019-11-13 11:18:45 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:45
+2019-11-13 11:18:45 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:45
+2019-11-13 11:18:45 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:45
+2019-11-13 11:18:45 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:45
+2019-11-13 11:18:45 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:45
+2019-11-13 11:18:46 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:46
+2019-11-13 11:18:47 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:47
+2019-11-13 11:18:47 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:18:47
+2019-11-13 11:18:52 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:52
+2019-11-13 11:18:52 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:52
+2019-11-13 11:18:52 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:52
+2019-11-13 11:18:52 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:52
+2019-11-13 11:18:52 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:52
+2019-11-13 11:18:53 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:53
+2019-11-13 11:18:54 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:54
+2019-11-13 11:18:54 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:18:54
+2019-11-13 11:18:59 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:59
+2019-11-13 11:18:59 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:59
+2019-11-13 11:18:59 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:59
+2019-11-13 11:18:59 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:18:59
+2019-11-13 11:18:59 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:18:59
+2019-11-13 11:19:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-13 11:19:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-13 11:19:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-13 11:19:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1573624140015}
+2019-11-13 11:19:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job failed
+2019-11-13 11:19:00 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Cron Task :: Execution Time - 11:19:00 Name-> Mail-Thread1 ThreadSet-> [Thread[RMI Scheduler(0),5,system], Thread[logback-6,5,main], Thread[RMI TCP Accept-0,5,system], Thread[logback-2,5,main], Thread[Signal Dispatcher,9,system], Thread[JMX server connection timeout 20,5,RMI Runtime], Thread[ReaderThread,5,main], Thread[logback-1,5,main], Thread[logback-8,5,main], Thread[oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser,4,main], Thread[Reference Handler,10,system], Thread[logback-7,5,main], Thread[RMI TCP Connection(1)-172.16.155.102,5,RMI Runtime], Thread[logback-4,5,main], Thread[logback-5,5,main], Thread[Finalizer,8,system], Thread[Common-Cleaner,8,InnocuousThreadGroup], Thread[logback-3,5,main], Thread[Job-Thread2,5,main], Thread[main,5,main], Thread[Attach Listener,5,system], Thread[Job-Thread1,5,main], Thread[Mail-Thread1,5,main]]
+2019-11-13 11:19:00 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 11:19:00
+2019-11-13 11:19:01 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:19:01
+2019-11-13 11:19:01 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:19:01
+2019-11-13 11:19:05 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:19:45 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:19:45
+2019-11-13 11:19:45 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:19:45
+2019-11-13 11:19:46 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:22:58 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:22:58
+2019-11-13 11:22:58 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:22:58
+2019-11-13 11:22:58 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:26:19 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:26:19
+2019-11-13 11:26:19 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:26:19
+2019-11-13 11:26:20 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:27:22 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:27:22
+2019-11-13 11:27:22 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:27:22
+2019-11-13 11:27:22 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:34:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:34:36
+2019-11-13 11:34:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:34:36
+2019-11-13 11:34:36 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:35:25 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:35:25
+2019-11-13 11:35:25 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:35:25
+2019-11-13 11:35:25 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:35:52 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:35:52
+2019-11-13 11:35:52 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:35:52
+2019-11-13 11:35:52 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:37:38 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:37:38
+2019-11-13 11:37:38 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:37:38
+2019-11-13 11:37:39 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:39:57 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:39:57
+2019-11-13 11:39:57 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:39:57
+2019-11-13 11:39:58 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:45:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:45:24
+2019-11-13 11:45:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:45:24
+2019-11-13 11:45:25 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:50:27 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:50:27
+2019-11-13 11:50:27 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:50:27
+2019-11-13 11:50:28 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 11:53:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 11:53:49
+2019-11-13 11:53:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 11:53:49
+2019-11-13 11:53:50 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:00:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:00:36
+2019-11-13 12:00:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:00:36
+2019-11-13 12:00:36 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:13:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:13:48
+2019-11-13 12:13:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:13:48
+2019-11-13 12:13:49 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:15:38 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:15:38
+2019-11-13 12:15:38 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:15:38
+2019-11-13 12:15:39 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:16:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:16:48
+2019-11-13 12:16:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:16:48
+2019-11-13 12:16:53 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:16:53
+2019-11-13 12:16:53 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:16:53
+2019-11-13 12:16:53 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:16:53
+2019-11-13 12:16:54 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:16:54
+2019-11-13 12:16:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:16:55
+2019-11-13 12:16:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:16:55
+2019-11-13 12:17:00 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:17:00
+2019-11-13 12:17:00 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:17:00
+2019-11-13 12:17:00 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:17:00
+2019-11-13 12:17:00 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:17:00
+2019-11-13 12:17:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-13 12:17:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-13 12:17:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-13 12:17:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1573627620443}
+2019-11-13 12:17:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : COMPLETED
+2019-11-13 12:17:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-13 12:17:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-13 12:17:01 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Cron Task :: Execution Time - 12:17:01 Name-> Mail-Thread1 ThreadSet-> [Thread[RMI TCP Connection(1)-172.16.155.102,5,RMI Runtime], Thread[logback-2,5,main], Thread[ReaderThread,5,main], Thread[Attach Listener,5,system], Thread[main,5,main], Thread[logback-1,5,main], Thread[Finalizer,8,system], Thread[Job-Thread1,5,main], Thread[Signal Dispatcher,9,system], Thread[Reference Handler,10,system], Thread[Common-Cleaner,8,InnocuousThreadGroup], Thread[RMI Scheduler(0),5,system], Thread[JMX server connection timeout 22,5,RMI Runtime], Thread[oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser,4,main], Thread[RMI TCP Accept-0,5,system], Thread[Mail-Thread1,5,main]]
+2019-11-13 12:17:01 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:17:01
+2019-11-13 12:17:01 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:17:01
+2019-11-13 12:17:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:17:02
+2019-11-13 12:17:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:17:02
+2019-11-13 12:18:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:18:09
+2019-11-13 12:18:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:18:09
+2019-11-13 12:18:10 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:19:07 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:19:07
+2019-11-13 12:19:07 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:19:07
+2019-11-13 12:19:07 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:21:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:21:36
+2019-11-13 12:21:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:21:36
+2019-11-13 12:21:36 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:23:50 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:23:50
+2019-11-13 12:23:50 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:23:50
+2019-11-13 12:23:51 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:27:45 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:27:45
+2019-11-13 12:27:45 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:27:45
+2019-11-13 12:27:46 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:33:39 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:33:39
+2019-11-13 12:33:39 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:33:39
+2019-11-13 12:33:39 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:36:57 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:36:57
+2019-11-13 12:36:57 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:36:57
+2019-11-13 12:39:16 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:39:16
+2019-11-13 12:39:16 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:39:16
+2019-11-13 12:39:17 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:47:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:47:56
+2019-11-13 12:47:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:47:56
+2019-11-13 12:47:57 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:48:30 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:48:30
+2019-11-13 12:48:30 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:48:30
+2019-11-13 12:48:35 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:48:35
+2019-11-13 12:48:35 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:48:35
+2019-11-13 12:48:35 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:48:35
+2019-11-13 12:48:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:48:36
+2019-11-13 12:48:37 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:48:37
+2019-11-13 12:48:37 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:48:37
+2019-11-13 12:48:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:48:42
+2019-11-13 12:48:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:48:42
+2019-11-13 12:48:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:48:42
+2019-11-13 12:48:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:48:42
+2019-11-13 12:48:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:48:42
+2019-11-13 12:48:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:48:43
+2019-11-13 12:48:44 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:48:44
+2019-11-13 12:48:44 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:48:44
+2019-11-13 12:48:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:48:49
+2019-11-13 12:48:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:48:49
+2019-11-13 12:48:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:48:49
+2019-11-13 12:48:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:48:49
+2019-11-13 12:48:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:48:49
+2019-11-13 12:48:50 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:48:50
+2019-11-13 12:48:51 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 12:48:51
+2019-11-13 12:48:51 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:48:51
+2019-11-13 12:48:53 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 12:49:51 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 12:49:51
+2019-11-13 12:49:51 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 12:49:51
+2019-11-13 12:49:53 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 13:15:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 13:15:36
+2019-11-13 13:15:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 13:15:36
+2019-11-13 13:15:36 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 13:16:04 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 13:16:04
+2019-11-13 13:16:04 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 13:16:04
+2019-11-13 13:16:04 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 13:23:05 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 13:23:05
+2019-11-13 13:23:05 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 13:23:05
+2019-11-13 13:23:05 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 13:24:29 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 13:24:29
+2019-11-13 13:24:29 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 13:24:29
+2019-11-13 13:24:29 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 13:36:30 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 13:36:30
+2019-11-13 13:36:30 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 13:36:30
+2019-11-13 13:36:30 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 13:37:05 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 13:37:05
+2019-11-13 13:37:05 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 13:37:05
+2019-11-13 13:37:05 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2019-11-13 14:37:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 14:37:48
+2019-11-13 14:37:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 14:37:48
+2019-11-13 14:37:48 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)

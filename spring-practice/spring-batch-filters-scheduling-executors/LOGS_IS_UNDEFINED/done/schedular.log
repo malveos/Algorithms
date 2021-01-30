@@ -1,0 +1,5 @@
+2019-09-26 15:50:42 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - hello world, I have just started up
+2019-09-26 15:50:42 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - Load all records from DB to ConcurrentLinkedQueue
+2019-09-26 15:51:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Sep 26 15:51:05 IST 2019
+2019-09-26 15:51:08 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-09-26 15:51:48 [RMI TCP Connection(3)-127.0.0.1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Spring Container is destroyed! save queues stats in DB

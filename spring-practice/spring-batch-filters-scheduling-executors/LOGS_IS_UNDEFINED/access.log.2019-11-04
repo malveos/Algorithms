@@ -1,0 +1,52 @@
+- [2019-11-01 15:45:07] [-] [-]
+				"GET /osmPerson/search HTTP/1.1" 404 0 226 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 15:45:15] [-] [-]
+				"GET /osmPerson HTTP/1.1" 500 430 220 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 15:45:15] [-] [-]
+				"GET /favicon.ico HTTP/1.1" 200 946 63 "http://localhost:8070/osmPerson" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 15:52:26] [-] [-]
+				"GET /osmPerson HTTP/1.1" 200 427792 1357 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 15:57:12] [-] [-]
+				"GET /osmPerson/search HTTP/1.1" 404 0 16 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 15:57:17] [-] [-]
+				"GET /osmPerson HTTP/1.1" 200 435320 860 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:05:00] [-] [-]
+				"GET /osmPerson HTTP/1.1" 200 445856 826 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:05:08] [-] [-]
+				"GET /osmPerson/244 HTTP/1.1" 500 402 191 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:05:17] [-] [-]
+				"GET /osmPerson HTTP/1.1" 200 447361 859 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:05:27] [-] [-]
+				"DELETE /osmPerson/244 HTTP/1.1" 500 402 61 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:05:38] [-] [-]
+				"DELETE /osmPerson/ HTTP/1.1" 404 142 7 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:05:41] [-] [-]
+				"DELETE /osmPerson HTTP/1.1" 404 141 7 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:05:44] [-] [-]
+				"DELETE /osmPerson HTTP/1.1" 404 141 18 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:05:49] [-] [-]
+				"DELETE /osmPerson HTTP/1.1" 404 141 4 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:05:50] [-] [-]
+				"DELETE /osmPerson HTTP/1.1" 404 141 5 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:05:50] [-] [-]
+				"DELETE /osmPerson HTTP/1.1" 404 141 5 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:05:53] [-] [-]
+				"GET /osmPerson HTTP/1.1" 200 447361 836 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:06:27] [-] [-]
+				"POST /osmPerson HTTP/1.1" 500 406 166 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:06:51] [-] [-]
+				"POST /osmPerson HTTP/1.1" 201 217 165 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:06:59] [-] [-]
+				"POST /osmPerson/32 HTTP/1.1" 404 144 11 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:07:11] [-] [-]
+				"GET /osmPerson/32 HTTP/1.1" 200 217 55 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:07:24] [-] [-]
+				"PUT /osmPerson/32 HTTP/1.1" 200 220 91 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:07:33] [-] [-]
+				"PATCH /osmPerson/32 HTTP/1.1" 200 220 52 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:07:37] [-] [-]
+				"GET /osmPerson/32 HTTP/1.1" 200 220 46 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:07:40] [-] [-]
+				"DELETE /osmPerson/32 HTTP/1.1" 204 - 82 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost
+- [2019-11-01 16:07:46] [-] [-]
+				"GET /osmPerson/32 HTTP/1.1" 404 0 47 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 localhost

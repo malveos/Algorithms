@@ -1,0 +1,77 @@
+1. HateOAS
+
+Hypermedia As The Engine Of Application State
+*{
+    "person": {
+        "name": "SAMAN"
+    },
+    "_links": {
+        "p": {
+            "href": "http://localhost:8070/p"
+        },
+        "car": {
+            "href": "http://localhost:8070/c/cars/20"
+        },
+        "self": {
+            "href": "http://localhost:8070/p/20"
+        }
+    }
+}
+
+Spring HATEOAS provides some APIs to ease creating REST representations that follow the HATEOAS principle when working with Spring and especially Spring MVC. The core problem it tries to address is link creation and representation assembly
+Link builder API to create links pointing to Spring MVC controller methods
+Support for hypermedia formats like HAL
+
+* self is request which is made.
+* including links in a returned response and using only these links to further communicate with the sever
+* PersonResource{Resource<Person>} / Resources<PersonResource> return incase of HateOS
+* create resource of other resource and embedd it in current resource
+*	Support for link and resource representation model.
+	Link builder API.
+	Support for HAL.
+* linkTo(…) and methodOn(…) are static methods on ControllerLinkBuilder that allow you to fake a method invocation on the controller.
+
+two ways to add (direct extending  or with embedding with other resource)
+<link href="theme.css" rel="stylesheet" type="text/css" />
+ 
+ Advantages
+ 1. It does not require any business/domain knowledge of application, because api end points are self-discoverable.
+ 2. It is providing the clients with options to fulfill a specific use-case.
+ 3. It reduces client coding errors and prevents invalid state transitions.
+ 4. Changing Client Behavior without Changing Code
+ 5. Both humans and machines can follow links, use OPTIONS and/or GET to explore URIs, and then understand the app better.
+ 6. Can be more useful if we more likely to be incorporated into other applications.
+
+It is more complex to build HATEOAS applications.
+Bigger Response Payload can cause problems.
+RestAPIs are “deep-linked” to perform some action in a single request but HATEOAS require multiple links to complete some action.
+
+create sequence osm_seq  
+INCREMENT BY 10
+    START WITH 10
+    MINVALUE 10
+    MAXVALUE 100
+    CYCLE
+    CACHE 2;
+create table osm_person (
+ pid NUMBER PRIMARY KEY,
+ name VARCHAR2(255) NOT NULL
+);
+
+
+create table osm_car  (
+carid int,
+pid int references osm_person(pid) ,
+carname varchar2(100)
+);
+
+
+select osm_seq.nextval from dual;
+insert into osm_car values (osm_seq.nextval, 20,'BMW');
+insert into osm_car values (osm_seq.nextval, 20,'AUDI');
+insert into osm_car values (osm_seq.nextval, 20,'NANO');
+select * from osm_car;
+
+2. Spring cloud : Contains many things..
+2.
+

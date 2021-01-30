@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="10 seconds"
+	debug="true">
+
+	<springProfile name="local">
+		<property name="LOGS" value="${LOG_DIR}" />
+	</springProfile>
+
+	<springProfile name="dev">
+		<property name="LOGS" value="${LOG_DIR}" />
+	</springProfile>
+
+	<springProfile name="test">
+		<property name="LOGS" value="${LOG_DIR}" />
+	</springProfile>
+
+	<springProfile name="stage">
+		<property name="LOGS" value="${LOG_DIR}" />
+	</springProfile>
+
+	<springProfile name="prod">
+		<property name="LOGS" value="${LOG_DIR}" />
+	</springProfile>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} -%X{LogMDCFilter.RID} - %msg%n </Pattern>
+		</layout>
+	</appender>
+
+	<appender name="SchedularLogAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOGS}/schedular.log</file>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %X{LogMDCFilter.RID} - %msg%n </Pattern>
+		</encoder>
+
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily and when the file reaches 10 MegaBytes -->
+			<fileNamePattern>${LOGS}/schedular-%d{yyyy-MM-dd}.log
+			</fileNamePattern>
+			<maxHistory>15</maxHistory>
+		</rollingPolicy>
+		<!--filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+			<evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+				<marker>SCHEDULE</marker>
+			</evaluator>
+			<onMismatch>DENY</onMismatch>
+			<onMatch>ACCEPT</onMatch>
+		</filter-->
+			<filter class="com.osm.OmkarSM.config.SampleSCHFilter" />
+
+	</appender>
+
+	<appender name="ApplicationLogAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOGS}/application.log</file>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %X{LogMDCFilter.RID} - %msg%n </Pattern>
+		</encoder>
+
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily and when the file reaches 10 MegaBytes -->
+			<fileNamePattern>${LOGS}/application-%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>15</maxHistory>
+		</rollingPolicy>
+		<!--filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+			<evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+				<marker>API</marker>
+			</evaluator>
+			<onMismatch>DENY</onMismatch>
+			<onMatch>ACCEPT</onMatch>
+		</filter-->
+			<Filter class="com.osm.OmkarSM.config.SampleAPIFilter" />
+	</appender>
+
+	<!-- Let Below package is common -->
+	<logger name = "com.osm.OmkarSM.batch.BatchProcessing" >
+		<appender-ref ref="SchedularLogAppender" />
+		<appender-ref ref="ApplicationLogAppender" />
+	</logger>
+
+	<logger name="com.osm.OmkarSM.scheduling.CustomSchedularConfigurer" additivity="false">
+		<appender-ref ref="SchedularLogAppender" />
+	</logger>
+
+	<logger name="com.osm.OmkarSM.scheduling.SchedulingTasks" additivity="false">
+		<appender-ref ref="ApplicationLogAppender" />
+	</logger>
+
+	<root level="info">
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>

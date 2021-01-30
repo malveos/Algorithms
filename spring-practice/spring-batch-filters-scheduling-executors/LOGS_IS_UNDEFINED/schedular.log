@@ -1,0 +1,149 @@
+2019-11-28 11:16:04 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - hello world, I have just started up
+2019-11-28 11:16:04 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - Load all records from DB to ConcurrentLinkedQueue
+2019-11-28 11:16:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:16:05 IST 2019
+2019-11-28 11:16:08 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:16:22 [RMI TCP Connection(2)-127.0.0.1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Spring Container is destroyed! save queues stats in DB
+2019-11-28 11:16:47 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - hello world, I have just started up
+2019-11-28 11:16:47 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - Load all records from DB to ConcurrentLinkedQueue
+2019-11-28 11:17:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:17:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:17:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:17:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574920020051}
+2019-11-28 11:17:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:17:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:17:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:17:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:17:05 IST 2019
+2019-11-28 11:17:06 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:17:10 [RMI TCP Connection(2)-127.0.0.1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Spring Container is destroyed! save queues stats in DB
+2019-11-28 11:20:41 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - hello world, I have just started up
+2019-11-28 11:20:41 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - Load all records from DB to ConcurrentLinkedQueue
+2019-11-28 11:21:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:21:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:21:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:21:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574920260053}
+2019-11-28 11:21:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:21:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:21:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:21:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:21:05 IST 2019
+2019-11-28 11:21:06 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:22:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:22:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:22:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:22:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574920322520}
+2019-11-28 11:22:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:22:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:22:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:22:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:22:05 IST 2019
+2019-11-28 11:22:06 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:22:06 [RMI TCP Connection(2)-127.0.0.1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Spring Container is destroyed! save queues stats in DB
+2019-11-28 11:22:27 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - hello world, I have just started up
+2019-11-28 11:22:27 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - Load all records from DB to ConcurrentLinkedQueue
+2019-11-28 11:23:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:23:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:23:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:23:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574920380055}
+2019-11-28 11:23:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:23:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:23:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:23:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:23:05 IST 2019
+2019-11-28 11:23:06 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:24:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:24:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:24:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:24:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574920442496}
+2019-11-28 11:24:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:24:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:24:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:24:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:24:05 IST 2019
+2019-11-28 11:24:05 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:24:05 [RMI TCP Connection(2)-127.0.0.1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Spring Container is destroyed! save queues stats in DB
+2019-11-28 11:24:30 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - hello world, I have just started up
+2019-11-28 11:24:30 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - Load all records from DB to ConcurrentLinkedQueue
+2019-11-28 11:25:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:25:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:25:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:25:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574920503058}
+2019-11-28 11:25:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:25:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:25:03 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:25:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:25:05 IST 2019
+2019-11-28 11:25:05 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:26:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:26:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:26:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:26:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574920560044}
+2019-11-28 11:26:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:26:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:26:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:26:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:26:05 IST 2019
+2019-11-28 11:26:06 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:26:49 [RMI TCP Connection(2)-127.0.0.1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Spring Container is destroyed! save queues stats in DB
+2019-11-28 11:32:36 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - hello world, I have just started up
+2019-11-28 11:32:36 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - Load all records from DB to ConcurrentLinkedQueue
+2019-11-28 11:33:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:33:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:33:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:33:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574920981276}
+2019-11-28 11:33:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:33:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:33:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:33:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:33:05 IST 2019
+2019-11-28 11:33:08 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:34:04 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:34:04 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:34:04 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:34:04 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574921044275}
+2019-11-28 11:34:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:34:05 IST 2019
+2019-11-28 11:34:05 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:34:05 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:34:05 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:34:05 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:34:06 [RMI TCP Connection(2)-127.0.0.1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Spring Container is destroyed! save queues stats in DB
+2019-11-28 11:34:53 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - hello world, I have just started up
+2019-11-28 11:34:53 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - Load all records from DB to ConcurrentLinkedQueue
+2019-11-28 11:35:04 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:35:04 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:35:04 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:35:04 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574921104726}
+2019-11-28 11:35:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:35:05 IST 2019
+2019-11-28 11:35:05 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:35:05 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:35:05 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:35:05 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:35:44 [RMI TCP Connection(2)-127.0.0.1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Spring Container is destroyed! save queues stats in DB
+2019-11-28 11:38:25 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - hello world, I have just started up
+2019-11-28 11:38:25 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - Load all records from DB to ConcurrentLinkedQueue
+2019-11-28 11:39:04 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:39:04 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:39:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:39:05 IST 2019
+2019-11-28 11:39:05 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:39:05 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574921345021}
+2019-11-28 11:39:05 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:39:05 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:39:05 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:39:05 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:39:36 [RMI TCP Connection(2)-127.0.0.1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Spring Container is destroyed! save queues stats in DB
+2019-11-28 11:39:49 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - hello world, I have just started up
+2019-11-28 11:39:49 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - Load all records from DB to ConcurrentLinkedQueue
+2019-11-28 11:40:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:40:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:40:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:40:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574921401328}
+2019-11-28 11:40:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:40:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:40:02 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:40:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:40:05 IST 2019
+2019-11-28 11:40:08 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:40:17 [RMI TCP Connection(2)-127.0.0.1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Spring Container is destroyed! save queues stats in DB
+2019-11-28 11:41:54 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - hello world, I have just started up
+2019-11-28 11:41:54 [main] INFO  c.o.O.s.CustomSchedularConfigurer -  - Load all records from DB to ConcurrentLinkedQueue
+2019-11-28 11:42:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-11-28 11:42:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-11-28 11:42:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-11-28 11:42:00 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1574921520047}
+2019-11-28 11:42:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : FAILED
+2019-11-28 11:42:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-11-28 11:42:01 [Mail-Thread1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - NO marker
+2019-11-28 11:42:05 [Job-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Job-Thread1 The Task1 executed at Thu Nov 28 11:42:05 IST 2019
+2019-11-28 11:42:06 [Mail-Thread1] INFO  c.o.O.s.CustomSchedularConfigurer -  - add to the mail thread in this way
+2019-11-28 11:42:10 [RMI TCP Connection(2)-127.0.0.1] INFO  c.o.O.s.CustomSchedularConfigurer -  - Spring Container is destroyed! save queues stats in DB

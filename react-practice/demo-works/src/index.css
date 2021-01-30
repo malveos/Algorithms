@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Home ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Home li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.Home a {
+  text-decoration: none;
+  color: black;
+}
+
+.Home a:hover,
+.Home a:active,
+.Home a.active {
+  color: blueviolet;
+  text-decoration: underline;
+}

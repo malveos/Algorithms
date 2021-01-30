@@ -1,0 +1,39 @@
+.CockPit {
+    text-align: center;
+  }
+  
+  .red {
+      color:red;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .CockPit button {
+    background-color: green;
+    font: inherit;
+    color: white;
+    border: 1px solid blue;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .CockPit button:hover {
+    background-color: lightgreen;
+    color: black
+  }
+
+  .CockPit button:disabled {
+    cursor: not-allowed;
+    background-color: rgb(229, 229, 229) !important;
+    color: #666666;
+  }
+
+  .CockPit button.red {
+    background-color: red;
+  }
+  .CockPit button.red:hover {
+    background-color: salmon;
+    color: black
+  }

@@ -1,0 +1,97 @@
+2019-09-26 15:50:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:50:42
+2019-09-26 15:50:42 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 15:50:42
+2019-09-26 15:50:47 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:50:47
+2019-09-26 15:50:47 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:50:47
+2019-09-26 15:50:47 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:50:47
+2019-09-26 15:50:48 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:50:48
+2019-09-26 15:50:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:50:49
+2019-09-26 15:50:49 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 15:50:49
+2019-09-26 15:50:54 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:50:54
+2019-09-26 15:50:54 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:50:54
+2019-09-26 15:50:54 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:50:54
+2019-09-26 15:50:54 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:50:54
+2019-09-26 15:50:54 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:50:54
+2019-09-26 15:50:55 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:50:55
+2019-09-26 15:50:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:50:56
+2019-09-26 15:50:56 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 15:50:56
+2019-09-26 15:51:01 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:01
+2019-09-26 15:51:01 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:01
+2019-09-26 15:51:01 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:01
+2019-09-26 15:51:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Cron Task :: Execution Time - 15:51:02 Name-> Mail-Thread1 ThreadSet-> [Thread[NioBlockingSelector.BlockPoller-1,5,main], Thread[http-nio-8070-exec-5,5,main], Thread[Catalina-utility-2,1,main], Thread[http-nio-8070-exec-1,5,main], Thread[DestroyJavaVM,5,main], Thread[Reference Handler,10,system], Thread[http-nio-8070-exec-8,5,main], Thread[RMI TCP Accept-0,5,system], Thread[RMI TCP Accept-0,5,system], Thread[logback-1,5,main], Thread[Signal Dispatcher,9,system], Thread[RMI TCP Connection(1)-127.0.0.1,5,RMI Runtime], Thread[JMX server connection timeout 24,5,RMI Runtime], Thread[http-nio-8070-exec-7,5,main], Thread[logback-3,5,main], Thread[http-nio-8070-Acceptor-0,5,main], Thread[http-nio-8070-ClientPoller-0,5,main], Thread[http-nio-8070-exec-6,5,main], Thread[http-nio-8070-exec-3,5,main], Thread[logback-2,5,main], Thread[container-0,5,main], Thread[http-nio-8070-ClientPoller-1,5,main], Thread[Common-Cleaner,8,InnocuousThreadGroup], Thread[Attach Listener,5,system], Thread[RMI TCP Accept-58981,5,system], Thread[http-nio-8070-exec-4,5,main], Thread[Finalizer,8,system], Thread[Mail-Thread1,5,main], Thread[Job-Thread1,5,main], Thread[RMI Scheduler(0),5,system], Thread[http-nio-8070-exec-10,5,main], Thread[http-nio-8070-exec-2,5,main], Thread[http-nio-8070-exec-9,5,main], Thread[Catalina-utility-1,1,main]]
+2019-09-26 15:51:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:02
+2019-09-26 15:51:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:02
+2019-09-26 15:51:02 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:02
+2019-09-26 15:51:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:03
+2019-09-26 15:51:03 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 15:51:03
+2019-09-26 15:51:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:08
+2019-09-26 15:51:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:08
+2019-09-26 15:51:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:08
+2019-09-26 15:51:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:08
+2019-09-26 15:51:08 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:08
+2019-09-26 15:51:09 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:09
+2019-09-26 15:51:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:10
+2019-09-26 15:51:10 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 15:51:10
+2019-09-26 15:51:15 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:15
+2019-09-26 15:51:15 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:15
+2019-09-26 15:51:15 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:15
+2019-09-26 15:51:15 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:15
+2019-09-26 15:51:15 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:15
+2019-09-26 15:51:16 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:16
+2019-09-26 15:51:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:17
+2019-09-26 15:51:17 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 15:51:17
+2019-09-26 15:51:22 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:22
+2019-09-26 15:51:22 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:22
+2019-09-26 15:51:22 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:22
+2019-09-26 15:51:22 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:22
+2019-09-26 15:51:22 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:22
+2019-09-26 15:51:23 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:23
+2019-09-26 15:51:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:24
+2019-09-26 15:51:24 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 15:51:24
+2019-09-26 15:51:29 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:29
+2019-09-26 15:51:29 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:29
+2019-09-26 15:51:29 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:29
+2019-09-26 15:51:29 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:29
+2019-09-26 15:51:29 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:29
+2019-09-26 15:51:30 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:30
+2019-09-26 15:51:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:31
+2019-09-26 15:51:31 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 15:51:31
+2019-09-26 15:51:31 [http-nio-8070-exec-1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - This is schedule
+2019-09-26 15:51:31 [http-nio-8070-exec-1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Getting a job instance
+2019-09-26 15:51:31 [http-nio-8070-exec-1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Starting the batch job
+2019-09-26 15:51:31 [http-nio-8070-exec-1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - jobParameters:{time=1569493291592}
+2019-09-26 15:51:31 [http-nio-8070-exec-1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job Status : COMPLETED
+2019-09-26 15:51:31 [http-nio-8070-exec-1] INFO  c.osm.OmkarSM.batch.BatchProcessing -  - Job completed
+2019-09-26 15:51:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:36
+2019-09-26 15:51:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:36
+2019-09-26 15:51:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:36
+2019-09-26 15:51:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:36
+2019-09-26 15:51:36 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:36
+2019-09-26 15:51:37 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:37
+2019-09-26 15:51:38 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:38
+2019-09-26 15:51:38 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 15:51:38
+2019-09-26 15:51:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:43
+2019-09-26 15:51:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:43
+2019-09-26 15:51:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:43
+2019-09-26 15:51:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:43
+2019-09-26 15:51:43 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:43
+2019-09-26 15:51:44 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task :: Execution Time - 15:51:44
+2019-09-26 15:51:45 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Rate Task with Initial Delay :: Execution Time - 15:51:45
+2019-09-26 15:51:45 [Mail-Thread1] INFO  c.o.O.scheduling.SchedulingTasks -  - Fixed Delay Task :: Execution Time - 15:51:45
+2019-09-26 15:51:48 [Mail-Thread1] ERROR c.o.O.scheduling.SchedulingTasks -  - Ran into an error {}
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at java.base/java.lang.Thread.sleep(Thread.java:339)
+	at java.base/java.util.concurrent.TimeUnit.sleep(TimeUnit.java:446)
+	at com.osm.OmkarSM.scheduling.SchedulingTasks.scheduleTaskWithFixedDelay(SchedulingTasks.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
