@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script type="text/javascript"
+src="http://cloud.boltiot.com/static/js/boltCommands.js">
+    //This code must be there in all code for control or monitoring
+    //Arduino type control and monitoring functions are pre-written in the boltCommands.js File
+   </script> 
+   <script type="text/javascript">
+   setKey('{{ApiKey}}','{{Name}}'); // Default line must be present in every code
+   setDebug(False); //Change Debug to true to get on screen alert messages of Command execution
+   </script>
+</head>
+<body>
+<center>
+   <button onclick='analogWrite(0,0)';
+style="height:50px;width:75px">OFF</button><br>
+   <button onclick='analogWrite(0,64)';
+style="height:50px;width:75px">1/4 Bright</button><br>
+   <button onclick='analogWrite(0,128)';
+style="height:50px;width:75px">1/2 Bright</button><br>
+   <button onclick='analogWrite(0,192)';
+style="height:50px;width:75px">3/4 Bright</button><br>
+   <button onclick='analogWrite(0,255)';
+style="height:50px;width:75px">Max Brightness</button><br>
+</center>
+</body>
+</html>

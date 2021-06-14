@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script type="text/javascript"
+src="http://cloud.boltiot.com/static/js/boltCommands.js">
+    //This code must be there in all code for control or monitoring
+    //Arduino type control and monitoring functions are pre-written in the boltCommands.js File
+   </script> 
+   <script type="text/javascript">
+   setKey('{{ApiKey}}','{{Name}}'); // Default line must be present in every code
+   </script>
+</head>
+<body>
+<center>
+    <button onclick='digitalRead(0,"reply");'
+style="height:50px;width:75px">READ PIN 0</button>
+    <p id="reply">Reply will be displayed here</p>
+</center>
+</body>
+</html>
