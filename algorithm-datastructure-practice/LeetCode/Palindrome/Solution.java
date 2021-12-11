@@ -1,4 +1,5 @@
 /***
+@Author Omkar Malve
 
 Palindrome number
 
@@ -13,6 +14,6 @@ class Solution {
             rev = rev *10 + x %10;
             x/=10;
         }
-        return x ==rev || x == rev/10;
+        return x ==rev || x == rev/10; //check is last did=git is zero
     }
 }

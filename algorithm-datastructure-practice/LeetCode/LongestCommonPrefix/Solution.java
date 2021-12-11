@@ -1,9 +1,8 @@
 /****
 
+@Author Omkar Malve
+
 Longest Common Prefix
-
-
-
 
 
 ****/
