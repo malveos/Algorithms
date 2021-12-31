@@ -1,11 +1,11 @@
 /****
+
+@Author Omkar Malve
+
 19. Remove Nth Node From End of List
 
 
-
 ****/
-
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -21,7 +21,7 @@ class Solution {
         // get to nth node and then start from first node
         int npos = n;
         ListNode forwardPtr = head;
-        while (npos> 0) {
+        while (npos > 0) {
             if (forwardPtr == null)
                 return head;
             forwardPtr = forwardPtr.next;

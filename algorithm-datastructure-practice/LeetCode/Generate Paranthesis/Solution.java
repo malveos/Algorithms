@@ -1,7 +1,8 @@
 /*****
+
+@Author Omkar Malve
+
 Generate Parentheses
-
-
 
 *****/
 class Solution {

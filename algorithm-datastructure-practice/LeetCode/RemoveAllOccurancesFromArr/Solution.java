@@ -1,4 +1,7 @@
 /**
+
+@Author Omkar Malve
+
 27. Remove Element
 
 Given an array nums and a value val, remove all instances of that value in-place and return the new length.
@@ -10,7 +13,6 @@ The order of elements can be changed. It doesn't matter what you leave beyond th
 
 **/
 
-
 class Solution {
     public int removeElement(int[] nums, int val) {
         if (nums == null) return 0;
@@ -21,8 +23,7 @@ class Solution {
                 right++;
             }
             if (right == nums.length) break;
-            nums[left++] = nums[right];
-            right++;
+            nums[left++] = nums[right++];
         }
         return left;
     }

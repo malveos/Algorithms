@@ -1,4 +1,7 @@
 /***
+
+@Author Omkar Malve
+
 25. Reverse Nodes in k-Group
 
 Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
@@ -30,7 +33,7 @@ class Solution {
         ListNode prev = null, next = null, cur = head;
         int ct = 0;
 		// Reverse first k nodes
-        while (cur!=null && ct  < k) {
+        while (cur != null && ct < k) {
             next = cur.next;
             cur.next = prev;
             prev = cur;
@@ -39,11 +42,11 @@ class Solution {
         }
  
 		// Recursively reverse next k nodes
-        if (next!=null)
+        if (next != null)
             head.next = reverseKGroup(next, k);
-        return prev;        
+        return prev;
     }
-    
+
     public int getLength(ListNode hd) {
         int ct = 0;
         while (hd!=null) {

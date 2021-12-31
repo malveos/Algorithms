@@ -1,7 +1,8 @@
 /***
 
-26. Remove Duplicates from Sorted Array
+@Author Omkar Malve
 
+26. Remove Duplicates from Sorted Array
 
 **/
 
@@ -14,7 +15,7 @@ class Solution {
         int left = 0 , right = 0;
         while (right < nums.length) {
             nums[left++] = nums[right];
-            while(right != nums.length -1 && nums[right] == nums[right+1] ) {
+            while(right != nums.length - 1 && nums[right] == nums[right + 1] ) {
                 right++;
             }
             right++;
