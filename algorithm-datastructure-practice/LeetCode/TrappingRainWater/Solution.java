@@ -6,7 +6,7 @@ Given n non-negative integers representing an elevation map where the width of e
 ***/
 class Solution {
     public int trap(int[] height) {
-        // go from both sides and do it one b one elevation
+        // go from both sides and do it one by one elevation
         
         int trap = 0;
         if(height == null || height.length == 0)

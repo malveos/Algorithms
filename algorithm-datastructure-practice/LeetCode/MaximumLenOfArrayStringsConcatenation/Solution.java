@@ -23,7 +23,7 @@ class Solution {
             return ans.length();
         }
         
-        // REcusrsive inclde arryelement
+        // Recursive include arryelement
         int included = -1;
         int excluded = -1;
         if(ans.length() + arr.get(idx).length() <= 26) {
